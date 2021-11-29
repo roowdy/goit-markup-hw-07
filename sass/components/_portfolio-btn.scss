@@ -1,0 +1,45 @@
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.btn-portfolio {
+  margin-right: 8px;
+}
+
+.btn-item {
+  height: 38px;
+  min-width: 73px;
+  background: #f5f4fa;
+  border: 1px var(--second-text-color);
+  border-radius: 4px;
+  padding: 6px 22px;
+}
+
+.btn-black {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-color);
+}
+
+.btn-white {
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--header-color);
+    background-color: var(--accent-color);
+  }
+}

@@ -1,0 +1,18 @@
+.clients-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 92px;
+  width: 170px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  color: var(--standart-color-icon);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients-name:hover,
+.clients-name:focus {
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+}
